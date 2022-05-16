@@ -1,0 +1,72 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
+.hardware-box {
+  position: relative;
+  background-color: #0c6efd;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.hardware-name {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.hardware-box:hover .hardware-name {
+  top: 5%;
+  opacity: 1;
+}
+
+.hardware-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.hardware-box:hover .hardware-detail-button {
+  opacity: 1;
+  bottom: 10%;
+}
+
+.hardware-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 80px);
+  max-width: 350px;
+  z-index: 10;
+}
+
+.hardware-box:hover .hardware-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(2deg) scale(1.2);
+}
