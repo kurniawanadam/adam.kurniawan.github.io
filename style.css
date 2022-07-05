@@ -1,14 +1,22 @@
 .jumbotron {
   padding-top: 5rem;
-  background-color: #e2edff;
+  padding-bottom: 5rem;
 }
 
 #projects {
-  background-color: #e2edff;
+  background-color: #dddddd;
 }
 
 section {
   padding-top: 5rem;
+}
+
+#gallery {
+  background-color: #dddddd;
+}
+
+.gallery {
+  background-color: #dddddd;
 }
 
 .gallery-img {
@@ -21,7 +29,7 @@ section {
 
 .hardware-box {
   position: relative;
-  background-color: #0c6efd;
+  background-color: #2b2b2b;
   border-radius: 10px;
   height: 500px;
   transform-style: preserve-3d;
@@ -69,4 +77,10 @@ section {
 
 .hardware-box:hover .hardware-img {
   transform: translate3d(-50%, -52%, 100px) rotate(2deg) scale(1.2);
+}
+
+.masthead {
+  background-size: cover;
+  min-height: 60vh;
+  position: relative;
 }
